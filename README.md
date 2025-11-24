@@ -8,7 +8,7 @@
         -> The client displays both sent and received messages inside the chat window.
 
 >  Features:
-	-> Real-time bi-directional chat (Client ↔ Server)
+	-> Real-time bi-directional chat (Client <-> Server)
 	-> GUI built using Java Swing
 	-> Messages appear in a scrollable chat area
 	-> Automatically displays:
