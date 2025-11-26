@@ -32,8 +32,8 @@ A simple two-way chat application built using Java Sockets and a Swing-based GUI
 Step1 : Start the Server
 		Compile and Run the Server
 		The server GUI will open and start listening on port 2300 . you can change the port number on the line number 65 in the file ChatServerGUI.java
+
 Step2 : start the Client
 		Compile and run the Client
 		The client GUI will open and connect to the server. you can change the host and thr port number at the line number 64 in the file ChatClientGUI.java
 
-### Author : Rekha ShankarLal Kumawat 
