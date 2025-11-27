@@ -1,7 +1,7 @@
 # Chat_Application_project
 
- ### A simple two-way chat application built using Java Sockets and a Swing-based GUI. 
- ### This project demonstrates how a client and server can communicate through messages in real-time, with all messages being displayed directly inside the GUI.
+ #### A simple two-way chat application built using Java Sockets and a Swing-based GUI. 
+ #### This project demonstrates how a client and server can communicate through messages in real-time, with all messages being displayed directly inside the GUI.
 
 ## Overview:
 
