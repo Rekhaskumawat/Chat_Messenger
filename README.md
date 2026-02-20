@@ -61,13 +61,13 @@ Chat_Messenger/
 
 #### For using the same deivce as Server and Client as well.
 
-   1. First run **Server.java**
-   2. Then run **Client.java** on another terminal
+   1. First run **ChatServerGUI.java**
+   2. Then run **ChatClientGUI.java** on another terminal
 
 #### For using two different devices (using the actual concept of networking between two devices)
 
 1. Both the devices should be connected to the same wifi OR by connecting LAN cable to both the devices
-2. Get the IP address of network from device which will run the Server.java (Windows : CMD : ipconfig : select the IPV4 address)
-3. Paste this IP address to the 64th line of Client.java in place of host ; ie. "localhost"
-4. Run **Server.java** first
-5. Then run the **Client.java** from the other device
+2. Get the IP address of network from device which will run the ChatServerGUI.java (Windows : CMD : ipconfig : select the IPV4 address)
+3. Paste this IP address to the 64th line of ChatClientGUI.java in place of host ; ie. "localhost"
+4. Run **ChatServerGUI.java** first
+5. Then run the **ChatClientGUI.java** from the other device
