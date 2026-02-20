@@ -61,6 +61,15 @@ class Chat implements ActionListener
         fobj = new JFrame(title);
         try
         {
+            /* 
+                For using two different devices :
+                    Connect to same network using wifi or LAN cable between your two devices
+                    Get the ip address from the server device 
+                    Paste it below in place of hocalhost
+                    and Run the server first then client
+                Note : For Windows allow an Java/Port through Firewall (As Windows Firewall may BLOCK this) 
+            */
+            
             sobj = new Socket("localhost",2300);
             bobj1 = new BufferedReader(new InputStreamReader(sobj.getInputStream()));
             pobj= new PrintStream(sobj.getOutputStream());
@@ -197,4 +206,5 @@ class ChatClientGUI
         cobj.Display();
         
     }
+
 }
